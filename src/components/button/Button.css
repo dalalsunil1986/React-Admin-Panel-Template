@@ -1,0 +1,20 @@
+.btn {
+    padding: 10px 20px;
+    color: white;
+    background: linear-gradient(45deg, #fc5f53, #f1c40f);
+    background: -webkit-linear-gradient(45deg, #fc5f53, #f1c40f);
+    background: -moz-linear-gradient(45deg, #fc5f53, #f1c40f);
+    background: -o-linear-gradient(45deg, #fc5f53, #f1c40f);
+    background-color: #fc5f53;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: 200ms;
+}
+.btn:hover {
+    transform: scale(1.1,1.1);
+}
+.btn:active {
+    transform: scale(0.9,0.9);
+}

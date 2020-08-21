@@ -1,0 +1,23 @@
+.menu {
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px;
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.1);
+}
+.menu-options {
+    list-style: none;
+}
+.menu-list {
+    display: inline;
+    margin-left: 10px;
+}
+.menu-link {
+    color: #000;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 300ms;
+}
+.menu-link:hover {
+    color: var(--primary-color);
+}
